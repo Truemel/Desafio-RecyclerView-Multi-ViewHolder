@@ -87,6 +87,7 @@ public class DailyMenuAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
 
         public Header(View itemView){
             super(itemView);
+            mText = itemView.findViewById(R.id.content_header);
         }
 
         public void setText(String text){
